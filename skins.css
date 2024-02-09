@@ -1,0 +1,126 @@
+header {
+  display: flex;
+  height: 10dvh;
+  background-color: rgba(87, 87, 163, .1);
+  border-bottom: 10px solid rgb(87, 87, 163);
+  align-items: center;
+}
+
+.buttons-skins {
+  display: flex;
+  flex-direction: row;
+  row-gap: 10svh;
+}
+
+.buttons-skins a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 31, 75);
+  width: 120px;
+  height: 40px;
+  margin-left: 3svh;
+  margin-top: 1svh;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(87, 87, 163);
+  transition: .5s;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.buttons-skins a:hover {
+  cursor: pointer;
+  background-color: rgb(87, 87, 163);
+  color: rgb(31, 31, 75);
+  scale: 1.1;
+}
+
+h1 {
+  color: rgb(87, 87, 163);
+  font-size: 5vh;
+  margin-bottom: 1vh;
+  user-select: none;
+  margin-top: 2.5vh;
+  margin-left: 2.5vh;
+  position: fixed;
+  z-index: 1;
+}
+
+header a:first-of-type {
+  margin-left: 140px !important;
+}
+
+main {
+  height: calc(100dvh - 10dvh);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(87, 87, 163, .3);
+  align-items: center;
+  padding-top: 10px;
+}
+
+a {
+  color: rgb(31, 31, 75);
+}
+
+h2 {
+  color: rgb(31, 31, 75);
+  font-size: 36px;
+  margin-bottom: 1vh;
+  user-select: none;
+}
+
+section:first-of-type {
+  background: url('skinsfiles/images/nm.webp') center/cover no-repeat;
+}
+
+section:last-of-type {
+  background: url('skinsfiles/images/dt.webp') center/cover no-repeat;
+}
+
+article {
+  width: 400px;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(87, 87, 163, .9);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+article h2 {
+  color: rgb(31, 31, 75);
+  font-size: 24px;
+  margin-top: 10px;
+  user-select: none;
+}
+
+article a {
+  color: rgb(31, 31, 75);
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  section {
+    margin-bottom: 10px;
+  }
+}

@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no">
     <link rel="stylesheet" href="main.css">
     <style>
         body {
             touch-action: manipulation;
         }
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://unpkg.com/swup@4"></script>
+    <script defer type="module" src="index.js"></script>
+
     <title>Lolu</title>
 </head>
+
 <body>
-    <main id="swup" class="transition-web">
-        <div class="transition-lolu">
-            <h1>Lolu</h1>
-        </div>
-        <div class="buttons transition-buttons">
-            <a href="./skins" class="buttonMain" id="buttonMain4" draggable="false" target="_self">Skins</a>
+    <main>
+        <h1>Lolu</h1>
+        <div class="buttons">
+            <a draggable="false" target="_self">Skins</a>
         </div>
         <div class="bg transition-bg">
             <div class="square"></div>
@@ -30,19 +31,8 @@
             <div class="square"></div>
         </div>
     </main>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const swup = new Swup();
-
-            // Add your custom click event for the "Skins" button
-            const skinsButton = document.getElementById('buttonMain4');
-            skinsButton.addEventListener('click', function (event) {
-                // Add your custom logic here if needed
-
-                // Prevent the default behavior
-                event.preventDefault();
-            });
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </body>
+
 </html>
