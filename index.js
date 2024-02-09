@@ -9,7 +9,7 @@ $(() => {
       fontSize: '5vh'
     }, 1100, function () {
       // Animation complete.
-      window.location.href = 'skins2.html';
+      window.location.href = '/skins';
     });
   })
 })
