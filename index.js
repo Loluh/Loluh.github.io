@@ -1,5 +1,5 @@
 $(() => {
-  $('a').on('click', function () {
+  $('.buttons a').on('click', function () {
     $('.square').fadeOut(1100);
     $('a').hide(1000);
     $('h1').animate({
