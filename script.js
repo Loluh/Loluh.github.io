@@ -1,5 +1,5 @@
 $(() => {
-  $('header a').on('click', function () {
+  $('.buttons-header a').on('click', function () {
     $('main, header').animate({
       opacity: 0.75,
       opacity: 0.5,
