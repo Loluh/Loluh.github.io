@@ -4,8 +4,8 @@ $(() => {
     $('.square').fadeOut(1100);
     $('a').hide(1000);
     $('h1').animate({
-      left: '7',
-      top: '7',
+      left: '20',
+      top: '20',
       fontSize: '3em',
       fontSize: '5vh'
     }, 1100, function () {

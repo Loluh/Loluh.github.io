@@ -10,8 +10,8 @@ $(() => {
     let viewportWidth = $(window).width();
     let h1Height = $('h1').outerHeight();
     let h1Width = $('h1').outerWidth();
-    let topOffset = 65; // Change this value as needed
-    let leftOffset = 65; // Change this value as needed
+    let topOffset = 115; // Change this value as needed
+    let leftOffset = 48; // Change this value as needed
     let topPosition = ((viewportHeight / 2) - (h1Height / 2)) - topOffset;
     let leftPosition = ((viewportWidth / 2) - (h1Width / 2)) - leftOffset;
     $('h1').animate({
