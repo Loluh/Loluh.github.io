@@ -265,4 +265,11 @@ html.is-animating .transition-bg {
     flex-direction: column;
     gap: 2svh
   }
+  body {
+    overflow: auto;
+  }
+  main{
+    min-width: 100vw;
+    height: auto;
+  }
 }
