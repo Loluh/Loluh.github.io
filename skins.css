@@ -1,3 +1,9 @@
+.socials {
+  position: fixed;
+  right: 0;
+  top: 10;
+}
+
 main {
   height: calc(100dvh - 10dvh);
   display: grid;
@@ -73,5 +79,17 @@ main article a {
 
   section {
     margin-bottom: 10px;
+  }
+
+  .socials {
+    bottom: 10px;
+    top: auto;
+    background-color: rgba(87, 87, 163, .9);
+    border-radius: 10px;
+    padding: 10px
+  }
+
+  .socials a:first-of-type {
+    filter: contrast(0.5);
   }
 }

@@ -136,8 +136,7 @@ main h1 {
 
 footer{
   position: absolute;
-  top:95vh;
-  right: 0;
+  bottom: 0;
 }
 
 .transition-bg {
@@ -179,15 +178,12 @@ html.is-animating .transition-bg {
   0% {
     transform: translateX(var(--widthNegative));
   }
-
   25% {
     transform: translateX(0);
   }
-
   50% {
     transform: translateX(var(--width));
   }
-
   75% {
     transform: translateX(0);
   }
@@ -201,19 +197,15 @@ html.is-animating .transition-bg {
   0% {
     transform: translateX(var(--width));
   }
-
   25% {
     transform: translateX(0);
   }
-
   50% {
     transform: translateX(var(--widthNegative));
   }
-
   75% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(var(--width));
   }
@@ -223,7 +215,6 @@ html.is-animating .transition-bg {
   .buttons {
     flex-direction: row;
   }
-
   .buttons a {
     margin: 10px;
     width: 20vh;
@@ -232,14 +223,12 @@ html.is-animating .transition-bg {
 }
 
 @media screen and (min-width: 768px) {
-
   .bg .square:first-child,
   .bg .square:nth-child(3),
   .bg .square:last-child {
     animation-duration: 30s;
     width: 100vw;
   }
-
   .bg .square:nth-child(2),
   .bg .square:nth-child(4) {
     animation-duration: 30s;
@@ -250,11 +239,9 @@ html.is-animating .transition-bg {
     0% {
       transform: translateX(-100vw);
     }
-
     50% {
       transform: translateX(100vw);
     }
-
     100% {
       transform: translateX(-100vw);
     }
@@ -264,11 +251,9 @@ html.is-animating .transition-bg {
     0% {
       transform: translateX(100vw);
     }
-
     50% {
       transform: translateX(-100vw);
     }
-
     100% {
       transform: translateX(100vw);
     }
