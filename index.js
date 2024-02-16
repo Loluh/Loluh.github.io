@@ -1,5 +1,6 @@
 $(() => {
   $('.buttons a').on('click', function () {
+    var url = $(this).data('url');
     $('.square').fadeOut(1100);
     $('a').hide(1000);
     $('h1').animate({
@@ -8,7 +9,7 @@ $(() => {
       fontSize: '3em',
       fontSize: '5vh'
     }, 1100, function () {
-      window.location.href = '/skins';
+      window.location.href = url;
     });
   })
 })

@@ -25,16 +25,4 @@ $(() => {
       window.location.href = '/';
     })
   })
-  // $('.twitch-logo').on('click', function () {
-  //   window.location.href = 'https://www.twitch.tv/loluh_';
-  // })
-  // $('.twitter-logo').on('click', function () {
-  //   window.location.href = 'https://www.twitch.tv/loluh_';
-  // })
-  // $('.youtube-logo').on('click', function () {
-  //   window.location.href = 'https://www.twitch.tv/loluh_';
-  // })
-  // $('.discord-logo').on('click', function () {
-  //   window.location.href = 'https://www.twitch.tv/loluh_';
-  // })
 })
